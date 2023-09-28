@@ -7,4 +7,5 @@ switch($c){
     case 0:echo $a." est egale a ".$b;break;
     case 1:echo $a." est superiere a ".$b;break;
 }
+
 ?>
