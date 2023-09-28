@@ -9,12 +9,11 @@
     <?php
     require 'menu.php';
     display_menu();
+
+    // L'utilisation de include signifie que si le fichier inclus n'est pas trouvé, le script continuera à s'exécuter.
+    //  L'utilisation de require est plus stricte et générera une erreur fatale si le fichier inclus n'est pas trouvé, arrêtant ainsi l'exécution du script.
     ?>
 
-    <!-- <h2>Liens vers les exercices individuels :</h2>
-    <ul>
-        <li><a href="exercice1.php">Exercice 1</a></li>
-         Ajoutez des liens vers les autres exercices ici 
-    </ul> -->
+
 </body>
 </html>

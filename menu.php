@@ -6,4 +6,5 @@ function display_menu() {
     }
     echo '</ul>';
 }
+
 ?>
